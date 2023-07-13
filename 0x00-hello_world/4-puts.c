@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*main: the program execution starts from here*/
+/**
+*main: "prints  the program execution starts from here"
+*puzzle, follow by a newline
+*return: always 0
+*/
 int main(void)
 /* main: the execution starts from the main()*/
 {
