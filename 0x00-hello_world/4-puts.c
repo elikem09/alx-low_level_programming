@@ -3,9 +3,8 @@
 *PROGRAMMING
 *RETURN MEANS SUCCESS
 */
-int main(void)
+int main(void)  /* main: entry */
 {
-puts("\"Programming is like building a multilingual puzzle");
-/* return : 0 (success) */
-return (0);
+puts("\"Programming is like building a multilingual puzzle")    /* puts: displays */
+return (0); /* return : 0 (success) */
 }
