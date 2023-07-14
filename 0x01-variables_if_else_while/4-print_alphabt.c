@@ -3,23 +3,23 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	char n;
-	n=97;
+char n;
 
-	while
-		(n <= 122)
-		{
-			if (n == 101 || n ==113)
-			{
-				continue;
-				n++;
-			}
-			putchar(n);
-			n++;
-		}
-	putchar('\n');
-	return (0);
+n = 97;
+while (n <= 122)
+{
+if (n == 101 || n == 113)
+{
+n++;
+continue;
 }
+putchar(n);
+n++;
+}
+putchar('\n');
+return (0);
+}
+
 
