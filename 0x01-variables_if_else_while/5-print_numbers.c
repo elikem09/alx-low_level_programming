@@ -5,21 +5,15 @@
  */
 int main(void)
 {
-char n;
+int n = 48;
 
-n = 97;
-while (n <= 122)
+while 
+(n <= 57)
 {
-if (n == 101 || n == 113)
-{
-n++;
-continue;
-}
 putchar(n);
 n++;
 }
 putchar('\n');
 return (0);
 }
-
-
+				
