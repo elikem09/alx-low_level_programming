@@ -5,12 +5,10 @@
  */
 int main(void)
 {
-int n = 48;
-while
-(n <= 57)
+char n = 122;
+for (n = 122; n >= 97; n--)
 {
 putchar(n);
-n++;
 }
 putchar('\n');
 return (0);
